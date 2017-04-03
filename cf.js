@@ -7,10 +7,10 @@
           c.push("%c ", this[a].msg);
           var b = "";
           this[a].color && (b += `color:${this[a].color};`);
-          this[a].background && (b += `background-color:${this[a].background} ;`);
+          this[a].background && (b += `background-color:${this[a].background};`);
           this[a].size && (b += `font-size:${this[a].size};`);
           this[a].fweight && (b += `font-weight:${this[a].fweight};`);
-          this[a].font && (b += `font-family:${this[a].font}`);
+          this[a].font && (b += `font-family:${this[a].font};`);
           this[a].border && (b += `border:${this[a].border};`);
           this[a].lborder && (b += `border-left:${this[a].lborder};`);
           this[a].align && (b += `text-align:${this[a].align};`);
