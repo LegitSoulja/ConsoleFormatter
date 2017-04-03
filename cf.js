@@ -13,7 +13,7 @@
           this[a].bborder && (b += `border-bottom:${this[a].bborder};`);
           this[a].border && (b += `border:${this[a].border};`);
           this[a].bottom && (b += `bottom:${this[a].bottom};`);
-          this[a].bwidth && (b += `border-width:${this[a].bwidth}px;`);
+          this[a].bwidth && (b += `border-width:${this[a].bwidth};`);
           this[a].clear && (b += `clear:${this[a].clear};`);
           this[a].collapse && (b += `border-collapse:${this[a].collapse};`);
           this[a].color && (b += `color:${this[a].color};`);
@@ -33,7 +33,7 @@
           this[a].position && (b += `position:${this[a].position};`);
           this[a].rborder && (b += `border-right:${this[a].rborder};`);
           this[a].right && (b += `right:${this[a].right};`);
-          this[a].size && (b += `font-size:${this[a].size}px;`);
+          this[a].size && (b += `font-size:${this[a].size};`);
           this[a].textd && (b += `text-decoration:${this[a].textd};`);
           this[a].tborder && (b += `border-top:${this[a].tborder};`);
           this[a].top && (b += `top:${this[a].top};`);
