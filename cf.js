@@ -1,6 +1,16 @@
 (()=>{
   Array.prototype.print = function() {
-    var c = [], d = [];
+    var c = [], d = [],global = arguments[0];
+    if(global){
+      if(global instanceof Object && !(global instanceof Array)){
+        if(Object.keys(global).length > 0){
+        }else{
+          throw new Error("Null object was given to print param: 0");
+        }
+      }else{
+        throw new TypeError("Unknown type in print param: 0");
+      }
+    }
     for (let a in this) {
       if(!(this[a] instanceof Object) || (this[a] instanceof Array)) throw new TypeError("Unknown type in array, index: " + a + "\n" + "Objects are only allowed");
       if (this[a].msg && this[a]) {
