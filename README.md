@@ -5,7 +5,7 @@ Pay attention, this will be a real quick tutorial.
 
 ### Usage
 ```javascript
-Single string/word thats formated
+// Single string/word thats formated
 [{
   msg: "Hello world ", 
   color: "purple", 
