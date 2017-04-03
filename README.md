@@ -22,7 +22,7 @@ Pay attention, this will be a real quick tutorial.
 - color as (color)
 > Ex: ```[{msg:"Hello World", color:"orange"}].print()```
 - background as (background-color)
-> Ex: ```[{msg:"Hello World", background:"black"}].print()```
+> Ex: ```[{msg:"Hello World ", color:"orange", background:"black"}].print()```
 - size as (font-size)
 - fweight as (font-weight)
 - border as (border)
