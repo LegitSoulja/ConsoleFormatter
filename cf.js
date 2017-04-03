@@ -29,6 +29,5 @@
     c = [c.join("")];
     for (a in d) "string" == typeof d[a] && c.push(d[a]);
     console.log.apply(this, c);
-    return "";
   };
 })();
