@@ -61,5 +61,21 @@ Pay attention, this will be a real quick tutorial.
 - ww as (word-wrap)
 - z as (z-index)
 
-### Global & Webkit animations
+### Global & @Keyframe animations
+
+Global can be used to apply a style to all objects given
+```javascript
+[{msg:"Hey."},{msg:"We're bold!."}].push().global({fweight:"bold"})
+```
+
+@Keyframe usage to an object using animate. This applies to concurrent page css, as console css for style properties is not supported.
+```javascript
+[{msg:"FadeMe",animate:"fade"}].push().kframe(
+{
+name:"fade", 
+to:{opacity:"0.9"},
+from:{opacity: "0.1"}
+})
+```
+
 ### Examples/Techniques/Styles
