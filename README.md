@@ -19,7 +19,7 @@ Pay attention, this will be a real quick tutorial.
 
 
 ### Object format keys -as- css property
-- color. Ex([{msg:"Hello World", color:"orange"}]) as (color)
+- color as (color)
 > Ex: ```[{msg:"Hello World", color:"orange"}].print()```
 - background as (background-color)
 > Ex: ```[{msg:"Hello World", background:"black"}].print()```
