@@ -1,7 +1,7 @@
 # ConsoleFormatter
 Add a little style to your console outputs
 
-> CDN: **http://cdn.legitsoulja.info/cf/cf.min.js**
+> CDN: **//cdn.legitsoulja.info/cf/cf.min.js**
 
 Pay attention, this will be a real quick tutorial.
 
