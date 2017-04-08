@@ -1,5 +1,5 @@
 (()=>{
-  const isCompatible = (chrome.runtime)?true:false;;
+  const isCompatible = (chrome.runtime)?true:false;
   Array.prototype.print = function() {
     if(!isCompatible) {
       Array.prototype.print = function(){let i="";this.forEach((a)=>{i+=" "+a.msg});console.log(i)};
