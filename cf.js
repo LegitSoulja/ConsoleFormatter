@@ -6,8 +6,7 @@
       throw new Error("This browser is not compatible with ConsoleFormatter");
     }
     var c = [], d = [];
-    this.forEach((a)=>{
-      var i = (this.indexOf(a) > -1)?this.indexOf(a):0;
+    this.forEach((a,i)=>{
       if(!(a instanceof Object) || (a instanceof Array)) throw new TypeError("Unknown type in array, index: " + i + "\n" + "Objects are only allowed");
       if (a.msg && a) {
         if (1 < Object.keys(a).length) {
