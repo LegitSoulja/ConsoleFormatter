@@ -7,7 +7,8 @@
     }
     var c = [], d = [];
     this.forEach((a)=>{
-      if(!(a instanceof Object) || (a instanceof Array)) throw new TypeError("Unknown type in array, index: " + a + "\n" + "Objects are only allowed");
+      var i = (this.indexOf(a) > -1)?this.indexOf(a):0;
+      if(!(a instanceof Object) || (a instanceof Array)) throw new TypeError("Unknown type in array, index: " + i + "\n" + "Objects are only allowed");
       if (a.msg && a) {
         if (1 < Object.keys(a).length) {
           c.push("%c ", a.msg);
@@ -51,7 +52,7 @@
         }
       }else{
         if(a == this || a == "print") return;
-        throw new Error("Null object given in array index: " + a);
+        throw new Error("Null object given in array index: " + i);
       }
     });
     c = [c.join("")];
